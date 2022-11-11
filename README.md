@@ -29,7 +29,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://user-images.githubusercontent.com/12707294/201395472-41328299-00f9-4a60-93ea-b687f1f6a94f.gif)
 
 ## Key Features
 
@@ -77,12 +77,26 @@ $ npm install
 $ npm run dev
 ```
 > **Note**
-> You can access the **web application** from **http://localhost:5000**
+> You can access the **web application** from **http://localhost:3000**
 >
 
 ## Tech Stack
 The **backend** side of the app was powered by the following technologies.
 <br>
+<style>
+  .tech-icon-container {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .tech-icon-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1.2rem;
+  }
+</style>
 <div class="tech-icon-container">
   <div class="tech-icon-element">
     <img height="50" width="50" src="https://cdn.simpleicons.org/Node.js" /> <b><small>Node</small></b>
@@ -91,7 +105,7 @@ The **backend** side of the app was powered by the following technologies.
     <img height="50" width="50" src="https://cdn.simpleicons.org/NestJS" /> <b><small>NestJS</small></b>
   </div>
   <div class="tech-icon-element">
-    <img height="50" width="50" src="https://cdn.simpleicons.org/Github" /> <b><small>GithubAPI</small></b>
+    <img height="50" width="50" src="https://cdn.simpleicons.org/Github/6e5494" /> <b><small>GithubAPI</small></b>
   </div>
 </div>  
 <br>
@@ -103,13 +117,12 @@ The **frontend** side of the app was powered by the following technologies.
     <img height="50" width="50" src="https://cdn.simpleicons.org/Node.js" /> <b><small>Node</small></b>
   </div>
   <div class="tech-icon-element">
-    <img height="50" width="50" src="https://cdn.simpleicons.org/Next.JS" /> <b><small>NextJS</small></b>
+    <img height="50" width="50" src="https://cdn.simpleicons.org/Next.JS/midnightblue" /> <b><small>NextJS</small></b>
   </div>
   <div class="tech-icon-element">
     <img height="50" width="50" src="https://cdn.simpleicons.org/TailwindCss" /> <b><small>TailwindCSS</small></b>
   </div>
 </div>  
-<br>
 
 ## Credits
 
@@ -119,16 +132,3 @@ This software was made by **Giancarlo Villena** for **Fulltime Force** with job 
 
 None
 
-<style>
-  .tech-icon-container {
-    display: flex;
-  }
-
-  .tech-icon-element {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 1.2rem;
-  }
-</style>
