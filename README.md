@@ -33,12 +33,15 @@
 
 ## Key Features
 
-* Minimalistic and clean UI interface 
-* Owner profile information 
-* Branch commits listed in a simplified style 
-* Open API specification 
-* Swagger api explorer    
-* Github API integration
+* Build with **state-of-the-art** web app technologies 
+* Minimalistic and Clean **UI interface**
+* **Seamslessly** user experience
+* Includes **Github User** profile information 
+* Branch commits listed in a **simplified style**
+* **Github API** integration
+* **Open API** specification 
+* **Swagger** api explorer    
+
 
 ## How To Use
 
