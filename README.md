@@ -83,28 +83,14 @@ $ npm run dev
 ## Tech Stack
 The **backend** side of the app was powered by the following technologies.
 <br>
-<style>
-  .tech-icon-container {
-    display: flex;
-    justify-content: space-evenly;
-
-  }
-  .tech-icon-element {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-right: 1.2rem;
-  }
-</style>
-<div class="tech-icon-container">
-  <div class="tech-icon-element">
+<div class="tech-icon-container" style="display: flex; justify-content: space-evenly;">
+  <div class="tech-icon-element" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
     <img height="50" width="50" src="https://cdn.simpleicons.org/Node.js" /> <b><small>Node</small></b>
   </div>
-  <div class="tech-icon-element">
+  <div class="tech-icon-element" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
     <img height="50" width="50" src="https://cdn.simpleicons.org/NestJS" /> <b><small>NestJS</small></b>
   </div>
-  <div class="tech-icon-element">
+  <div class="tech-icon-element" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
     <img height="50" width="50" src="https://cdn.simpleicons.org/Github/6e5494" /> <b><small>GithubAPI</small></b>
   </div>
 </div>  
@@ -112,14 +98,14 @@ The **backend** side of the app was powered by the following technologies.
 
 The **frontend** side of the app was powered by the following technologies.
 <br>
-<div class="tech-icon-container">
-  <div class="tech-icon-element">
+<div class="tech-icon-container" style="display: flex; justify-content: space-evenly;">
+  <div class="tech-icon-element" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
     <img height="50" width="50" src="https://cdn.simpleicons.org/Node.js" /> <b><small>Node</small></b>
   </div>
-  <div class="tech-icon-element">
+  <div class="tech-icon-element" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
     <img height="50" width="50" src="https://cdn.simpleicons.org/Next.JS/midnightblue" /> <b><small>NextJS</small></b>
   </div>
-  <div class="tech-icon-element">
+  <div class="tech-icon-element" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: center;">
     <img height="50" width="50" src="https://cdn.simpleicons.org/TailwindCss" /> <b><small>TailwindCSS</small></b>
   </div>
 </div>  
