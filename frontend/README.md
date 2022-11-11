@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitHub Integration
 
-## Getting Started
+This is a Next.js app that uses the GitHub API to display data about a user. In this case, Miguel319. This app uses server components. If you'd like to learn more about them, check the [Next.js Documentation](https://beta.nextjs.org/docs/rendering/server-and-client-components).
 
-First, run the development server:
+## Setting things up
+
+Before running the project, you must create .env file at the root of the project, and then you must add the following environment variable: **`NEXT_PUBLIC_API_URL`**. The value for such variable cannot be provided in this .README file. Please, reach out to me so I can provided to you.
+
+
+## Run the project
+
+If you would like to run the app in your local environment, please run the following commands:
+
+
+### npm
 
 ```bash
-npm run dev
-# or
-yarn dev
+- npm install
+- npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### yarn
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+- yarn
+- yarn dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Routes
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **`/`** -> Renders the main page, which contains some commits, branches and a description of the repo's author.
+- **`/branches`** -> List of branches from github-api.
+- **`/commits`** --> List of commits from github-api.
+- **`/repositories`** --> List of repositories from Miguel Jiménez.
